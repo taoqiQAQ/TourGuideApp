@@ -28,11 +28,11 @@ public class ParkFragment extends Fragment {
 
         ArrayList<Attractions> Attraction = new ArrayList<Attractions>();
 
-        Attraction.add(new Attractions("three","three",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("three","three",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("three","three",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("three","three",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("three","three",R.mipmap.ic_launcher));
+        Attraction.add(new Attractions("flower","7AM",R.drawable.number_four));
+        Attraction.add(new Attractions("flower","8AM",R.drawable.number_nine));
+        Attraction.add(new Attractions("flower","8AM",R.drawable.number_eight));
+        Attraction.add(new Attractions("grass","8Am",R.drawable.number_seven));
+        Attraction.add(new Attractions("shop","7AM",R.drawable.number_one));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), Attraction);
 

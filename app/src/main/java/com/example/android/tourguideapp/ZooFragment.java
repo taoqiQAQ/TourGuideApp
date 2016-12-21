@@ -28,11 +28,11 @@ public class ZooFragment extends Fragment {
 
         ArrayList<Attractions> Attraction = new ArrayList<Attractions>();
 
-        Attraction.add(new Attractions("one","twp",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("one","twp",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("one","twp",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("one","twp",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("one","twp",R.mipmap.ic_launcher));
+        Attraction.add(new Attractions("monkey","9AM",R.drawable.color_black));
+        Attraction.add(new Attractions("fish","9AM",R.drawable.color_brown));
+        Attraction.add(new Attractions("shop","8AM",R.drawable.color_dusty_yellow));
+        Attraction.add(new Attractions("activity","8AM",R.drawable.color_gray));
+        Attraction.add(new Attractions("tiger","9AM",R.drawable.color_green));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), Attraction);
 

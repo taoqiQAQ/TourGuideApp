@@ -29,11 +29,11 @@ public class BeachFragment extends Fragment {
 
         ArrayList<Attractions> Attraction = new ArrayList<Attractions>();
 
-        Attraction.add(new Attractions("four","four",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("four","four",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("four","four",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("four","four",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("four","four",R.mipmap.ic_launcher));
+        Attraction.add(new Attractions("seawater","8AM",R.drawable.number_three));
+        Attraction.add(new Attractions("shop","8AM",R.drawable.number_two));
+        Attraction.add(new Attractions("beach","7AM",R.drawable.number_seven));
+        Attraction.add(new Attractions("shop","8AM",R.drawable.number_three));
+        Attraction.add(new Attractions("activity","9AM",R.drawable.number_nine));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), Attraction);
 

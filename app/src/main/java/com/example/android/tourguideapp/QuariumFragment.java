@@ -28,11 +28,11 @@ public class QuariumFragment extends Fragment {
 
         ArrayList<Attractions> Attraction = new ArrayList<Attractions>();
 
-        Attraction.add(new Attractions("two","two",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("two","two",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("two","two",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("two","two",R.mipmap.ic_launcher));
-        Attraction.add(new Attractions("two","two",R.mipmap.ic_launcher));
+        Attraction.add(new Attractions("fish","8AM",R.drawable.color_red));
+        Attraction.add(new Attractions("fish","8AM",R.drawable.color_mustard_yellow));
+        Attraction.add(new Attractions("shop","8AM",R.drawable.color_white));
+        Attraction.add(new Attractions("shop","7AM",R.drawable.number_eight));
+        Attraction.add(new Attractions("activity","7AM",R.drawable.number_five));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), Attraction);
 
