@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"TourGuideApp  "</string>
+    <string name="zoo">Zoo</string>
+    <string name="park">Park</string>
+    <string name="beach">Beach</string>
+    <string name="quarium">Quarium</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
